@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# Venv
+.venv/
+venv/
+
+# Logs & temp
+*.log
+logs/
+temp.txt
+
+# Personal / unrelated
+marketplace_resumes/
+resume_info/
+upwork_fiverr_resume_package.md
+
+# OS
+.DS_Store
+Thumbs.db
