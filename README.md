@@ -2,10 +2,6 @@
 
 Async perpetual futures arbitrage bot for crypto exchanges. Monitors spread between multiple exchanges in real time and places hedged long/short pairs when spread thresholds are met.
 
-## Business Value
-
-This service reduces the operational load of manually watching many exchanges and executing hedged trades under time pressure. Built-in safeguards such as spread sanity caps, open-failure cooldowns, and symbol quarantine help prevent repeated bad fills and reduce avoidable loss from unstable market feeds. The runtime dashboard and configurable thresholds make it easier for an operator to adapt quickly when market conditions change without rewriting code.
-
 ## Features
 
 - Real-time WebSocket price streams (Binance, Bybit, OKX, Gate.io, Bitget, MEXC, KuCoin, BingX, Aster)
@@ -58,4 +54,4 @@ tools/         # Deploy and diagnostic scripts
 
 ## License
 
-No open-source license is declared yet.
+Private — all rights reserved.
